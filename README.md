@@ -57,10 +57,12 @@ Cleaned Order Details
 
 
 ---
-<img width="1920" height="1080" alt="Screenshot (144)" src="https://github.com/user-attachments/assets/9c9b08bd-e470-4027-b71a-e3dca0899a3e" />
+<img width="1920" height="1080" alt="Screenshot (152)" src="https://github.com/user-attachments/assets/9f533a05-6491-40ad-a8b2-4839c05369b3" />
+
 Calculated Column categorizing records
 
-<img width="1920" height="1080" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/51b514aa-6bb0-49bb-9a16-79fd0aa1871c" />
+<img width="1920" height="1080" alt="Screenshot (153)" src="https://github.com/user-attachments/assets/a01471f0-fcd8-4d70-862d-22d93d96d641" />
+
 Revenue per unit in two decimal places
 
 
@@ -85,7 +87,6 @@ Cleaned sales Target
 2. **Aggregated Order Details**: Created a reference query (`Messy_Order_Details_Aggregated`) grouping by `Order ID` to calculate `Total Amount`, `Total Profit`, and `Total Items`.
 <img 
 4. **Matched Sales Targets with Actuals**: Merged monthly sales targets with actual performance metrics using a multi-column join key (**`Month`** + **`Category`**).
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1dc6f654-d482-4a92-a91f-229a1ee8d145" />
 ---
 
 
