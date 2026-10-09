@@ -4,24 +4,24 @@ This project demonstrates an end-to-end data cleaning, transformation, and valid
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Real-world datasets are rarely analysis-ready. This case study focuses on handling dirty data using automated Power Query transformations, ensuring data integrity, correct relationships, and accurate business logic.
 
-### 📂 Datasets Included
+### Datasets Included
 * **`Messy_List_of_Orders.csv`**: Contains order headers with customer and location details (~508 rows).
 * **`Messy_Order_Details.csv`**: Contains line-item sales, quantities, and profit details (~1,506 rows).
 * **`Messy_Sales_Target.csv`**: Contains monthly sales targets by product category (~44 rows).
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 * **Microsoft Excel**: Power Query (ETL engine & M code), Data Modeling
 * **Data Sources**: CSV Files
 
 ---
 
-## 🧹 Key Cleaning & Transformation Steps
+##  Key Cleaning & Transformation Steps
 
 ### 1. `Messy_List_of_Orders.csv`
 * **Removed Irrelevant Columns**: Dropped `Notes` and `Sales_Rep` columns.
@@ -81,7 +81,7 @@ Cleaned sales Target
 
 ---
 
-## 🔗 Data Modeling & Merging
+##  Data Modeling & Merging
 
 1. **Merged Orders & Order Details**: Joined `Messy_List_of_Orders` with `Messy_Order_Details` on `Order ID` using a **Left Outer Join** to integrate transaction-level details with customer metadata.
 2. **Aggregated Order Details**: Created a reference query (`Messy_Order_Details_Aggregated`) grouping by `Order ID` to calculate `Total Amount`, `Total Profit`, and `Total Items`.
@@ -92,7 +92,7 @@ Cleaned sales Target
 
 
 ---
-## ✅ Quality Assurance & Validation Checks
+##  Quality Assurance & Validation Checks
 
 * **Row Count & Integrity**: Verified that no valid order header records were lost during merges.
 * **Data Type Validation**: Confirmed that all columns are set to appropriate data types (`Date`, `Decimal Number`, `Text`, `Int64`).
@@ -100,15 +100,15 @@ Cleaned sales Target
 
 ---
 
-## 📈 Final Deliverable
+##  Final Deliverable
 The resulting dataset was loaded into **Microsoft Excel**, structured as production-ready, clean tables ready for PivotTable analysis, dashboard creation, and executive reporting.
 
 
 ---
 
-## 👤 About me
+##  About me
 I am an emerging Data Analyst focused on building practical, real-world Business Intelligence solutions. I leverage Excel (Power Query & M Code), SQL, Power BI, and Python to transform messy datasets into automated ETL pipelines, clean relational models, and clear business insights. I am actively expanding my skill set by tackling end-to-end case studies and data engineering challenges.
 
-* 🌐 **Linkedin**: https://www.linkedin.com/in/tamilore-tolulope-ajayi-44560a208/?isSelfProfile=true
-* 💼 **Project**: E-Commerce Sales Data Cleaning & Pipeline Automation (GIFT 1 Case Study)
-* 🎯 **Core Tools**: Excel (Power Query & M Code), SQL, Power BI, Python
+*  **Linkedin**: https://www.linkedin.com/in/tamilore-tolulope-ajayi-44560a208/?isSelfProfile=true
+*  **Project**: E-Commerce Sales Data Cleaning & Pipeline Automation (GIFT 1 Case Study)
+*  **Core Tools**: Excel (Power Query & M Code), SQL, Power BI, Python
